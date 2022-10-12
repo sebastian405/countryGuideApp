@@ -1,0 +1,53 @@
+/* Estilos para toda la pagina */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Estilos para el color de la pagina */
+body{
+    background-color: #3d64e6;
+}
+
+/* Estilos para el contenedor */
+.container{
+    background-color: #ffffff;
+    width: 80vw;
+    max-width: 37.5em;
+    padding: 3em 2.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.62em;
+    box-shadow: 0 1.5em 1.8em rgba(8, 21, 65, 0.25);
+}
+
+/* Estilos para el contenedor para buscar */
+.search-wrapper{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+}
+
+/* Estilos para el boton en el contenedor para buscar */
+.search-wrapper button{
+    font-size: 1em;
+    background-color: #3d64e6;
+    color: #ffffff;
+    padding: 0.8em 0;
+    border: none;
+    border-radius: 1.5em;
+}
+
+/* Estilos para el input del contenedor para buscar */
+.search-wrapper input{
+    font-size: 1em;
+    padding: 0 0.62em;
+    border: none;
+    border-bottom: 2px solid #3d64e6;
+    outline: none;
+    color: #222a43;
+}
